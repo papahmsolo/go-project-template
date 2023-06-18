@@ -1,0 +1,1 @@
+Go project template repository with basic linter and CI configuration.
