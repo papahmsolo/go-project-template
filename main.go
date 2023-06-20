@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("%d", "dfsd")
+	fmt.Printf("%d", "bad stuff")
 }
