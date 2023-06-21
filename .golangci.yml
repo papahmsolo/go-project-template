@@ -1,0 +1,76 @@
+linters:
+  enable:
+    # default
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - typecheck
+    - unused
+    
+    # recommended
+    - bodyclose
+    - contextcheck
+    - cyclop
+    - dupl
+    - dupword
+    - durationcheck
+    - errchkjson
+    - errname
+    - errorlint
+    - exportloopref
+    - forcetypeassert
+    - gochecknoglobals
+    - gochecknoinits
+    - gocognit
+    - goconst
+    - gocritic
+    - gocyclo
+    - godot
+    - godox
+    - goerr113
+    - goimports
+    - gomnd
+    - gosec
+    - ireturn
+    - loggercheck
+    - misspell
+    - nakedret
+    - nestif
+    - nilerr
+    - nilnil
+    - noctx
+    - prealloc
+    - reassign
+    - revive
+    - unconvert
+    - unparam
+    - usestdlibvars
+    - wastedassign
+    - wrapcheck
+
+    # Tests
+    # - ginkgolinter
+    - paralleltest
+    - tenv
+    - testpackage
+    - thelper
+    - tparallel
+
+    # SQL
+    - execinquery
+    - rowserrcheck
+    - sqlclosecheck
+
+    # Tools-specific 
+    # - promlinter
+
+
+run:
+  build-tags:
+    - integration
+
+skip-dirs:
+    - internal/mocks
+    
