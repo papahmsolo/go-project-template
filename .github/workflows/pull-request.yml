@@ -1,11 +1,11 @@
-name: test
+name: pull-request
 on:
   pull_request:
     branches:
         - "main"
 
 jobs:
-  test:
+  pull-request:
     runs-on: ubuntu-latest
 
     steps:
