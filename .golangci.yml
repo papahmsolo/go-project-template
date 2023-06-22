@@ -13,27 +13,19 @@ linters:
     - bodyclose
     - contextcheck
     - cyclop
-    - dupl
-    - dupword
-    - durationcheck
     - errchkjson
     - errname
     - errorlint
     - exportloopref
     - forcetypeassert
     - gochecknoglobals
-    - gochecknoinits
-    - gocognit
     - goconst
     - gocritic
     - gocyclo
-    - godot
-    - godox
     - goerr113
     - goimports
     - gomnd
     - gosec
-    - ireturn
     - loggercheck
     - misspell
     - nakedret
@@ -41,16 +33,26 @@ linters:
     - nilerr
     - nilnil
     - noctx
-    - prealloc
     - reassign
     - revive
     - unconvert
     - unparam
     - usestdlibvars
     - wastedassign
-    - wrapcheck
 
-    # Tests
+    # optional
+    # - gocognit
+    # - dupl
+    # - dupword
+    # - durationcheck
+    # - gochecknoinits
+    # - godot
+    # - godox
+    # - ireturn
+    # - prealloc
+    # - wrapcheck
+
+    # tests
     # - ginkgolinter
     - paralleltest
     - tenv
@@ -59,11 +61,11 @@ linters:
     - tparallel
 
     # SQL
-    - execinquery
-    - rowserrcheck
-    - sqlclosecheck
+    # - execinquery
+    # - rowserrcheck
+    # - sqlclosecheck
 
-    # Tools-specific 
+    # tool-specific 
     # - promlinter
 
 
